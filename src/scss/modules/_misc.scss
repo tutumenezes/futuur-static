@@ -124,25 +124,25 @@
 @keyframes bounceColor {
   0% {
     -webkit-transform:    scaleX(1.00) scaleY(1.00) ;
-    background-color: $grey1;
+    background-color: $color-grey1;
   }
   7% {
     -webkit-transform:    scaleX(1.00) scaleY(1.00) ;
-    background-color: $grey5;
+    background-color: $color-grey5;
   }
   9% {
     -webkit-transform:    scaleX(1.20) scaleY(1.20) ;
-    background-color: $grey1;
+    background-color: $color-grey1;
   }
 
   20% {
     -webkit-transform:    scaleX(1.00) scaleY(1.00) ;
-    background-color: $grey1;
+    background-color: $color-grey1;
   }
 
   100% {
     -webkit-transform: scaleX(1.00) scaleY(1.00) ;
-    background-color: $grey1;
+    background-color: $color-grey1;
   }
 }
 
@@ -172,17 +172,17 @@
   0% {
     -webkit-transform:    scaleX(1.00) scaleY(1.00) ;
     opacity: 0.3;
-    background-color: $blacky;
+    background-color: $color-black;
   }
   7% {
     -webkit-transform:    scaleX(2.00) scaleY(2.00) ;
-    opacity: 0.2; 
-    background-color: $grey5;
+    opacity: 0.2;
+    background-color: $color-grey5;
   }
   9% {
     -webkit-transform:    scaleX(3.30) scaleY(3.30) ;
     opacity: 0.15;
-  
+
   }
   10% {
     -webkit-transform:    scaleX(9.45) scaleY(9.45) ;

@@ -3,10 +3,10 @@
 	._header-base-wrapper {
 		height: 70px; top:0; right: 0; left: 0;
 		._header-base {
-	
+
 			padding-top: 27px; padding-right: 7px; padding-left: 7px;
-			text-align: center; 
-		
+			text-align: center;
+
 			/* Top Navbar  */
 
 			.navbar--notifications {
@@ -16,27 +16,27 @@
 			    position: relative;
 
 			    span {
-			    	font-size: 12px; color: $grey4; font-weight: 900; 
+			    	font-size: 12px; color: $color-grey4; font-weight: 900;
 			    	width: 16px; height: 13px; position: absolute; top: 0px; bottom: 0; left: 0px; right: 3px; margin: auto; text-align: center; display: block;
 			    }
 
 			    &.notification-true {
 			    	&:after {
 			    		content:''; display: block; width: 8px; height: 8px;
-			    		background-color: $pinky; border-radius: 50%;
+			    		background-color: $color-pink; border-radius: 50%;
 			    		position: absolute; top: 1px; right: 1px; opacity: 0.9;
 			    	}
 			    }
 			}
 			.navbar--title {
 				display: inline-block; text-align: center;
-				h1 {font-size: 1.8em; color: $grey5; font-weight: 300; margin: 0 auto; position: relative; bottom: 3px;}
+				h1 {font-size: 1.8em; color: $color-grey5; font-weight: 300; margin: 0 auto; position: relative; bottom: 3px;}
 			}
 
 			.navbar--ooms {
 				display: inline-block; float: right;
 				span {
-					display: block; color: $grey4;
+					display: block; color: $color-grey4;
 					height: 29px;
 			    	padding-top: 8px;
 			    	font-size: 0.9em; font-weight: 400;
@@ -46,7 +46,7 @@
 				width: 100%;
 				li {
 					display: inline-block;
-					&:nth-child(1) { 
+					&:nth-child(1) {
 						-webkit-box-orient: vertical;
 			            -webkit-line-clamp: 2;
 			            white-space: normal;
@@ -58,13 +58,13 @@
 		}
 	}
 	._header-cat {
-		height: 22px; 
+		height: 22px;
 		ul {
 			display:block; min-width: 100%;
 			white-space: nowrap; overflow-x: scroll; overflow-y: hidden; text-align: center;
 			li {
 				display: inline-block; margin: 0 10px;
-				a {font-size: 0.9em; font-weight: 100; color: $whitey; opacity: 0.5;} 
+				a {font-size: 0.9em; font-weight: 100; color: $color-white; opacity: 0.5;}
 			}
 		}
 
@@ -80,8 +80,8 @@
 				-webkit-transition: all .2s;
 			}
 		}
-		._header-cat { 
-			margin-top: 70px; 
+		._header-cat {
+			margin-top: 70px;
 			-webkit-transition: all .2s;
 		}
 	}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6063 7218 41 26">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-subscribe);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-subscribe">
+      <rect x="-6063" y="7218" width="41" height="26"/>
+    </clipPath>
+  </defs>
+  <g id="subscribe" class="cls-1">
+    <path id="carta" class="cls-2" d="M4334-8119.271a2.749,2.749,0,0,1-3-3v-20a2.748,2.748,0,0,1,3-3h35a2.75,2.75,0,0,1,3,3v20a2.75,2.75,0,0,1-3,3Zm0-3h35v-20h-35Zm4-4v-3h14v3Zm0-5v-3h14v3Zm20-2v-7h8v7Z" transform="translate(-10394 15363.271)"/>
+  </g>
+</svg>

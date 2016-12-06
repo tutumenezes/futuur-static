@@ -13,7 +13,7 @@
 }
 
 .medium-gradient {
-	@include linear-gradient(-35deg, #B12197 0%, #5361C4 100%);	
+	@include linear-gradient(-35deg, #B12197 0%, #5361C4 100%);
 }
 
 /*****/
@@ -31,7 +31,7 @@
 /**** Search ***/
 
 .list__search {
-	outline: none; background-color: $grey5;
+	outline: none; background-color: $color-grey5;
     margin-top: 13px; margin-left: 20px; margin-right: 20px; margin-bottom: 13px;
     height: 26px; border-radius: 6px;
     text-align: center; display: flex;
@@ -44,10 +44,10 @@
     	flex-basis: 186px;
 
     	.list__search__icon {
-		   width: 15px; fill: $grey3; position: relative; top: 3px;
+		   width: 15px; fill: $color-grey3; position: relative; top: 3px;
 		}
 		span {
-			color: $grey4;
+			color: $color-grey4;
 		}
     }
 }
@@ -57,12 +57,12 @@
 
 
 .question__item {
-	
+
 	display: block;
 	.question__item__date {
-		width: 80px; height: 21px; background: transparent; border: 1px solid $grey5;
+		width: 80px; height: 21px; background: transparent; border: 1px solid $color-grey5;
 		border-radius: 6px; margin: 0 auto; text-align: center; margin-bottom: 4px;
-		span { font-size: 10px; position: relative; bottom: 1px; color: $grey4;}
+		span { font-size: 10px; position: relative; bottom: 1px; color: $color-grey4;}
 	}
 	.question__item__title {
 		margin-bottom: 0px;
@@ -71,12 +71,12 @@
 		}
 	}
 	.question__item__category-list {
-		text-align: center; color: $grey4;
+		text-align: center; color: $color-grey4;
 		font-family: 'oswald', sans-serif; text-transform: uppercase; font-size: 0.9em;
 		ul {
 			li {
 				display: inline-block;
-				a {color: $grey4; margin-right: 2px;}
+				a {color: $color-grey4; margin-right: 2px;}
 				&:after {
 					content: '>';
 					display: inline-block;
@@ -113,31 +113,31 @@
 				}
 				.outcome__price {
 					position: absolute; top: 10px; left: 10px;
-					width: 30px; height: 20px; background-color: $grey1; z-index: 1;
+					width: 30px; height: 20px; background-color: $color-grey1; z-index: 1;
 					line-height: 23px;
 					p {
 						z-index: 10; position: absolute; top: 0; right: 0; left: 0; bottom: 0; margin: 0 auto;
-						font-size: 0.9em; color: $whitey; font-weight: 700;
+						font-size: 0.9em; color: $color-white; font-weight: 700;
 						span {font-weight: 100;}
 					}
 					.block-anim-l1 {
 						z-index: 5;
 						position: absolute; top: 0; bottom: 0;
 						width:30px; height:20px;
-						background-color: $grey1;
+						background-color: $color-grey1;
 					}
 					.block-anim-l2 {
 						z-index: 5;
 						position: absolute; top: 0; bottom: 0; left: 5px;
 						width:20px; height:20px;
-						background-color: $pinky;
+						background-color: $color-pink;
 						/*border-radius: 50%;*/
 					}
 
-				}	
+				}
 				.outcome__title {
 					position: absolute;
-					font-size: 1em; color: $whitey;
+					font-size: 1em; color: $color-white;
 					display: -webkit-box;
 				    text-overflow: ellipsis;
 				    white-space: normal;
@@ -160,14 +160,14 @@
 				width: 20px; height: 20px; overflow: hidden; position: relative; top: 5px;
 				img { min-width: 20px; height: 20px; }
 			}
-			p {display: inline-block; margin: 0 auto; margin-left: 7px; line-height: 20px; font-size: 1.1em; color: $grey3; font-weight: 400;}
+			p {display: inline-block; margin: 0 auto; margin-left: 7px; line-height: 20px; font-size: 1.1em; color: $color-grey3; font-weight: 400;}
 		}
 	}
 
 	&:after {
 		content: ''; display: block; height: 1px;
-		background-color: $grey5;
-		margin-bottom: 20px; 
+		background-color: $color-grey5;
+		margin-bottom: 20px;
 		margin-right: 20px; margin-left: 20px;
 		margin-top: 10px;
 	}
@@ -176,15 +176,93 @@
 	&.has-friends {
 		&:after {
 			content: ''; display: block; height: 1px;
-			background-color: $grey5;
-			margin-bottom: 20px; 
+			background-color: $color-grey5;
+			margin-bottom: 20px;
 			margin-right: 20px; margin-left: 20px;
 			margin-top: 0px;
 		}
 	}
 }
 
+/**** BUTTON ****/
 
+.button {
+  $button-radius: $button-height-normal / 2;
+  $button-padding: $button-radius;
+
+  max-width: 320px;
+  height: $button-height-normal;
+  padding: 0 $button-padding;
+  transition: multi($animation-normal, opacity, background, box-shadow);
+  border: 1px solid $color-grey2;
+  border-radius: $button-radius;
+  outline: none;
+  background-color: $color-white;
+  color: $color-grey4;
+  font-size: $text-size-button;
+  font-weight: bold;
+  line-height: $button-height-normal;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: default;
+
+  &:disabled {
+    opacity: .6;
+  }
+
+  &:hover {
+    box-shadow: 0 2px 10px $color-black-fade2;
+  }
+
+  &:active {
+    transition-duration: $animation-fast;
+    background-color: $color-grey1;
+    box-shadow: 0 0 4px $color-black-fade2;
+  }
+
+  &--icon {
+    $icon-size: 24px;
+
+    padding-left: $button-padding + $icon-size;
+    background-repeat: no-repeat;
+    background-position: $button-padding / 2 center;
+  }
+
+  &--big {
+    $button-radius: $button-height-big / 2;
+    $button-padding: $button-radius;
+
+    width: 100%;
+    height: $button-height-big;
+    padding: 0 $button-padding;
+    border-radius: $button-radius;
+    line-height: $button-height-big;
+
+    &.button--icon {
+      $icon-size: 30px;
+
+      padding-left: $button-padding + $icon-size;
+      background-position: $button-padding / 2 center;
+      background-size: $icon-size;
+    }
+  }
+
+  &--primary {
+    border: 0;
+    background-color: $color-blue;
+    color: $color-white;
+
+    &:active {
+      background-color: darken($color-blue, 20%);
+    }
+  }
+
+  &--highlight {
+    border: 0;
+    background: $theme-gradient;
+    color: $color-white;
+  }
+}
 
 
 
