@@ -34,13 +34,14 @@ Author: Hub9.co
 // OBJECTS & MODULES
 //----------------------------------*/
 
+@import 'modules/_wall.scss';
 @import 'modules/_buttons.scss';
 @import 'modules/_inputs.scss';
 @import 'modules/_lists.scss';
 @import 'modules/_typography.scss';
 @import 'modules/_misc.scss';
 @import 'modules/_app.scss';
-@import 'modules/_landing.scss';
+
 
 // Enhancement modules
 @import 'modules/_breakpoints.scss';

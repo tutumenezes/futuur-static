@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-5647 7354 360 687.857">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-bg-phone);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #c2ced1;
+        stroke-miterlimit: 10;
+        stroke-width: 1px;
+      }
+    </style>
+    <clipPath id="clip-bg-phone">
+      <rect x="-5647" y="7354" width="360" height="687.857"/>
+    </clipPath>
+  </defs>
+  <g id="bg-phone" class="cls-1">
+    <g id="Iphone" transform="translate(-5652 7354)">
+      <path id="Path_313" data-name="Path 313" class="cls-2" d="M8.248,111.087h0A7.649,7.649,0,0,1,.5,103.339V67.748A7.649,7.649,0,0,1,8.248,60h0" transform="translate(-0.5 84.06)"/>
+      <path id="Path_314" data-name="Path 314" class="cls-2" d="M8.248,136.345h0A7.649,7.649,0,0,1,.5,128.6V93.248A7.649,7.649,0,0,1,8.248,85.5h0" transform="translate(-0.5 120.3)"/>
+      <path id="Path_315" data-name="Path 315" class="cls-2" d="M58.561,688.115A55.075,55.075,0,0,1,3.6,633.154V55.461A55.075,55.075,0,0,1,58.561.5H301.405a55.075,55.075,0,0,1,54.961,54.961V633.4a55.075,55.075,0,0,1-54.961,54.961H58.561Z" transform="translate(3.906 -0.5)"/>
+      <path id="Path_316" data-name="Path 316" class="cls-2" d="M298.094,678.509H55.008A48.927,48.927,0,0,1,6.1,629.6V51.908A49.083,49.083,0,0,1,55.008,3H297.852A48.927,48.927,0,0,1,346.76,51.908V629.843A48.669,48.669,0,0,1,298.094,678.509Z" transform="translate(7.459 3.053)"/>
+      <path id="Path_317" data-name="Path 317" class="cls-2" d="M114.618,24.364H68.132A3.724,3.724,0,0,1,64.5,20.732h0A3.724,3.724,0,0,1,68.132,17.1h46.487a3.724,3.724,0,0,1,3.632,3.632h0A3.566,3.566,0,0,1,114.618,24.364Z" transform="translate(90.456 23.092)"/>
+      <ellipse id="Ellipse_25" data-name="Ellipse 25" class="cls-2" cx="3.148" cy="3.148" rx="3.148" ry="3.148" transform="translate(178.925 14.527)"/>
+      <ellipse id="Ellipse_26" data-name="Ellipse 26" class="cls-2" cx="2.663" cy="2.663" rx="2.663" ry="2.663" transform="translate(137.523 40.434)"/>
+      <ellipse id="Ellipse_27" data-name="Ellipse 27" class="cls-2" cx="7.021" cy="7.021" rx="7.021" ry="7.021" transform="translate(133.165 36.076)"/>
+      <path id="Path_318" data-name="Path 318" class="cls-2" d="M93.907,314.456a30.628,30.628,0,1,1,30.507-30.749A30.534,30.534,0,0,1,93.907,314.456Z" transform="translate(88.892 358.632)"/>
+      <ellipse id="Ellipse_28" data-name="Ellipse 28" class="cls-2" cx="24.454" cy="24.454" rx="24.454" ry="24.454" transform="translate(158.345 618.127)"/>
+    </g>
+  </g>
+</svg>
