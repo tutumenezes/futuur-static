@@ -1,8 +1,8 @@
-# FireShell [![Build Status](https://travis-ci.org/toddmotto/fireshell.png)](https://travis-ci.org/toddmotto/fireshell)
+## Futuur Static
+# The static version of futuur webapp — used to speed up the visuals development and front end integration.
+** built using FireShell [![Build Status](https://travis-ci.org/toddmotto/fireshell.png)](https://travis-ci.org/toddmotto/fireshell)
 
-Fiercely quick front-end boilerplate and workflows.
 
-The opinionated FireShell framework. Built for the modern developer. For teams and the individual, encouraging a better workflow. JavaScript task running, build processes, autominification and file concatenation, wrapped with an enhanced HTML5 boilerplated framework.
 
 * Source: [github.com/toddmotto/fireshell](http://github.com/toddmotto/fireshell)
 * Homepage: [getfireshell.com](http://getfireshell.com)
@@ -10,24 +10,18 @@ The opinionated FireShell framework. Built for the modern developer. For teams a
 
 ## Jump start
 
-Get started with FireShell:
+1. Clone the git repo
+2. cd <project>
+3. npm install
+4. grunt init
+5. grunt 
 
-1. Download the latest stable release from
-   [getfireshell.com](http://getfireshell.com).
-2. Clone the git repo — `git clone
-   https://github.com/toddmotto/fireshell.git`
-
-## Platform support
-
-FireShell runs on both Mac OS X, Linux and Windows. Automated command-line scripts are only supported on Mac OS X and Windows.
 
 ## Documentation
 
 Read the developer [documentation](//github.com/toddmotto/fireshell/blob/master/docs/DOCS.md) on FireShell for further reading and learning. You may need to install a few assets before you can get started, such as Node, Git, Grunt.
 
 ## Features
-
-Here are some of the main features of FireShell:
 
 * HTML5 framework, WAI-ARIA roles and HTML5 semantics
 * Baseline HTML5 features, DNS prefetching, responsive meta
@@ -95,10 +89,6 @@ Projected roadmap for FireShell and it's subsets builds.
 * PHP FireShell spawning a `localhost` with relevant includes
 * Create a Yeoman generator for FireShell
 * Add [grunt-autoprefixer](//github.com/nDmitry/grunt-autoprefixer) in place of `vendor` Sass mixin.
-
-## Contributors
-
-FireShell is maintained by [Todd Motto](//github.com/toddmotto) and it's contributors; [Jean-Philippe Sirois](//github.com/jpsirois), [Noah Bass](//github.com/noahbass), [Bernard Chhun](//github.com/bchhun), [Chris Missal](//github.com/ChrisMissal), [Mihai Ionut Vilcu](//github.com/ionutvmi), [Octavio Amuchastegui](//github.com/octavioamu).
 
 ## License
 
