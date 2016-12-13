@@ -11,17 +11,17 @@
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="//ajax.googleapis.com" rel="dns-prefetch">
     <link href="assets/css/style.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
 
     <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="https://use.typekit.net/itt4wax.js"></script>
-
 
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
   </head>
   <body class="tk-proxima-nova">
 
-  <div class="lightbox-">
+  <div class="lightbox- wow fadeIn">
     <div class="lightbox--content">
       <div class="icon medium-gradient" style='-webkit-mask-image: url("assets/img/landing.svg");'></div>
       <h1>Obrigado pelo interesse no Futuur!</h1>
@@ -34,47 +34,49 @@
       <div class="landing-wrap">
         <div class="landing_content left meio">
           <div class="vertical">
-            <h1 class="futuur_title">
-            <div class="icon medium-gradient" style='-webkit-mask-image: url("assets/img/landing.svg");'></div>
+            <h1 class="futuur_title wow fadeInUp">
+            <div class="icon medium-gradient"  style='-webkit-mask-image: url("assets/img/landing.svg");'></div>
             Futuur
             </h1>
-            <h1 class="futuur_slogan">Predict<span>the Future</span></h1>
-            <article>
+            <h1 class="futuur_slogan wow fadeInUp" data-wow-delay=".2s" >Predict<span>the Future</span></h1>
+            <article class="wow fadeInUp" data-wow-delay=".3s">
               Futuur is a marketplace for predictions about the future.<br>Predictions take the form of wagers
               on the outcomes of future events,<br>such as a sports game, a political election, or a scientific study.
             </article>
           </div>
-          <div class="sendgrid-subscription-widget" data-token="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" data-css="false" data-submit-text="Subscribe">
+          <div class="sendgrid-subscription-widget wow fadeInUp" data-wow-delay=".4s" data-token="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" data-css="false" data-submit-text="Subscribe">
           </div>
         </div>
 
         <div class="landing_content right meio">
-          <div class="landing__login">
+          <div class="landing__login wow fadeInUp" data-wow-delay=".3s">
             <span>Already have your account?</span>
             <a class="login_button" href="#">Log In</a>
           </div>
         </div>
       </div>
     </main>
-
-    <footer class="footer" role="contentinfo">
-
-    </footer>
+    <!-- <footer class="footer" role="contentinfo"></footer> -->
     <script src="assets/js/vendor/widget.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>');</script>
     <script src="assets/js/scripts.min.js"></script>
-
+    <script src="assets/js/vendor/wow.min.js"></script>
     <script>
-    (function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
-    (f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
-    l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-XXXXXXXX-XX');
-    ga('send', 'pageview');
+      (function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
+      (f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
+      l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-XXXXXXXX-XX');
+      ga('send', 'pageview');
     </script>
 
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://s3.amazonaws.com/subscription-cdn/0.2/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'sendgrid-subscription-widget-js');
+    <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://s3.amazonaws.com/subscription-cdn/0.2/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'sendgrid-subscription-widget-js');
+    </script>
+
+    <script type="text/javascript">
+      new WOW().init();
     </script>
 
   </body>

@@ -9,16 +9,21 @@
   and (max-device-width: 1500px)
   and (-webkit-min-device-pixel-ratio: 1) {
 
-    .futuur_slogan { font-size: 82px !important; line-height: 75px !important; }
-    article { font-size: 16px !important;}
+    .futuur_slogan { font-size: 82px !important; line-height: 75px !important; margin: 0.5em 0 !important; }
+    article { font-size: 16px !important; margin-bottom: .5em !important; }
 
     .sendgrid-subscription-widget {
-      position: initial !important; bottom: 0 !important; align-self: initial !important;
-      //input[type="submit"] { display: inline-block !important; width: 205px !important; margin-top: 20px !important; background-image: none !important; padding: 0 20px !important;  }
-      //input[type="email"] { width: 50% !important; }
+
+      input[type="submit"] { font-size: 22px !important; height: 52px !important; padding: 0 27px !important; border-radius: 22px !important; line-height: 27px !important; border-radius: 52px !important;}
+      input[type="email"] { font-size: 22px !important; height: 52px !important;  }
     }
 
-    .landing__login {margin-bottom: 40px !important;}
+    .landing__login {
+      //margin-bottom: 40px !important;
+      a { font-size: 22px !important; height: 52px !important; padding: 0 27px !important; border-radius: 52px !important; line-height: 52px !important; }
+      span {font-size: 16px !important;}
+
+    }
   }
 /*------------------------------------ MEDIUM ------------------------------------ */
 
