@@ -1,5 +1,5 @@
-## Futuur Static
-# The static version of futuur webapp — used to speed up the visuals development and front end integration.
+# Futuur Visuals
+## The static version of futuur webapp — used to speed up the visuals development and front end integration.
 ** built using FireShell [![Build Status](https://travis-ci.org/toddmotto/fireshell.png)](https://travis-ci.org/toddmotto/fireshell)
 
 
@@ -11,7 +11,7 @@
 ## Jump start
 
 1. Clone the git repo
-2. cd <project>
+2. cd project/
 3. npm install
 4. grunt init
 5. grunt 
