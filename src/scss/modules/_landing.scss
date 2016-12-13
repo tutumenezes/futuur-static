@@ -98,14 +98,8 @@
       span {display: none;}
 
       label {
+
         color: $color-grey2;
-        &:before {
-          display: block;
-          content: 'Please fill your email';
-          font-size: 26px;
-          font-weight: 100;
-          position: absolute; bottom: 16px; left: 140px;
-        }
 
         &.labelfocus {
           &:before { opacity: 0; transition: multi($animation-normal, opacity); display: none;}
@@ -118,12 +112,26 @@
           border-bottom: 1px solid $color-grey3;
           font-size: 26px; line-height: 68px; font-weight: bold;
           outline: 0;
-          width: 65%; max-width: 604px;
+          width: 65%;
           margin: 0;
 
           &:focus {
             border: 0; outline: 0; color: $color-grey1;
             border-bottom: 1px solid $color-grey3;
+            /*-- PlaceHolder --*/
+
+          ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            opacity: 1; color: $color-grey2;
+          }
+          ::-moz-placeholder { /* Firefox 19+ */
+            opacity: 1; color: $color-grey2;
+          }
+          :-ms-input-placeholder { /* IE 10+ */
+            opacity: 1; color: $color-grey2;
+          }
+          :-moz-placeholder { /* Firefox 18- */
+            opacity: 1; color: $color-grey2;
+          }
           }
         }
       }
@@ -147,13 +155,6 @@
         text-align: center;
         text-transform: uppercase;
         cursor: pointer;
-        background-image: url('../img/subscribe.svg');
-        background-repeat: no-repeat;
-        $icon-size: 41px;
-        background-size: $icon-size;
-
-        padding-left: $button-padding + $icon-size;
-        background-position: $icon-size + $button-padding / 2   center;
 
         &:hover {
           background-color: transparentize($color-blue, .25);
@@ -181,6 +182,7 @@
 
     .response {
       &.error { color: $color-magenta;}
+      &.success { color: $color-blue;}
     }
   }
 }
@@ -232,18 +234,5 @@
 
 
 
-/*-- PlaceHolder --*/
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  opacity: 1; color: $color-grey2;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  opacity: 1; color: $color-grey2;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  opacity: 1; color: $color-grey2;
-}
-:-moz-placeholder { /* Firefox 18- */
-  opacity: 1; color: $color-grey2;
-}
 

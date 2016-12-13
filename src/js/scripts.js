@@ -2,7 +2,7 @@
 
   'use strict';
 
-  document.getElementsByName('email')[0].placeholder='Interested?';
+  document.getElementsByName('email')[0].placeholder='Please fill your email :)';
 
 
 
