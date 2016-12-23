@@ -759,9 +759,9 @@ body {
   margin-right: auto;
 }
 .background .content .landing__login {
-  display: block;
+  display: none;
   align-self: flex-end;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   margin-left: auto;
 }
 .background .content .landing__login span {
@@ -792,7 +792,7 @@ body {
   display: block;
   align-self: flex-end;
   position: relative;
-  bottom: 40px;
+  bottom: 60px;
   width: 100%;
 }
 .background .content .sendgrid-subscription-widget span, .background .content .sms-send-service span {

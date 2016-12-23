@@ -16,13 +16,13 @@
   $(".sendgrid-subscription-widget").on("success", function (e) {
     // Do something w/ success and activate success lightbox
     $(this).find(".response").addClass("success").html("<img src=\"colon/d/face.png\" alt=\"YAY!\"> " + e.detail);
+    $(".lightbox-").addClass("active");
   });
 
   $(".sendgrid-subscription-widget").on("error", function (e) {
     // Do something w/ error and activate error lightbox
-    $(".lightbox-").addClass("active");
-  });
 
+  });
 
 
   $(function () {

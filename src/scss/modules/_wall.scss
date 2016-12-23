@@ -102,13 +102,19 @@
     }
 
     .landing__login {
-      display: block; align-self: flex-end; margin-bottom: 40px; margin-left: auto;
+
+      display: none; //display: block;
+
+      align-self: flex-end; margin-bottom: 60px; margin-left: auto;
       span {
         display: block;
         font-size: 20px;
         margin-bottom: 10px;
       }
       .login_button {
+
+
+
         display: block;
         $button-radius: 68px / 2;
         $button-padding: $button-radius;
@@ -135,7 +141,7 @@
     .sendgrid-subscription-widget, .sms-send-service {
 
       display: block; align-self: flex-end;
-      position: relative; bottom: 40px;
+      position: relative; bottom: 60px;
       width: 100%;
 
       span {display: none;}
